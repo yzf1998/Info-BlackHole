@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Data / checkpoints / caches (all resolved via IB_* env vars) ---
+/data/
+/checkpoints/
+/cache/
+snapshot/
+latent_outputs/
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.npy
+*.npz
+!assets/target_pc/*.npy
+
+# --- Logs and run artifacts ---
+outputs/
+log/
+logs/
+tensorboard/
+runs/
+wandb/
+*.log
+train_diff.log
+train_diffusion.log
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Secrets ---
+.env
+.env.*
+settings.json
+*.pem
+*.key
+credentials.json
+
+# --- Build products of the vendored EMD extension ---
+third_party/PyTorchEMD/build/
+third_party/PyTorchEMD/*.so

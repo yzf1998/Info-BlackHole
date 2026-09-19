@@ -1,0 +1,20 @@
+{
+  "exp_name": "t3",
+  "method": "FoldNet",
+  "dataset": "shapenet",
+  "data_dir": "${DATA_ROOT}/shapenet/shapenet_part/shapenetcore_partanno_segmentation_benchmark_v0",
+  "num_points": 2048,
+  "num_workers": 4,
+  "m": 2025,
+  "epoch": 400,
+  "batch_size": 32,
+  "lr": 0.001,
+  "verbose": false,
+  "snapshot_interval": 100,
+  "target_pc_path": "assets/target_pc/earphone-5bb7c.pts",
+  "train_poisoned_rate": 0.1,
+  "train_trigger_type": "sphere",
+  "dataset_pretrain": "",
+  "cache_dir": "",
+  "test_trigger_type": "sphere"
+}

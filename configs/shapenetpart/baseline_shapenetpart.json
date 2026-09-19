@@ -1,0 +1,14 @@
+{
+  "exp_name": "baseline",
+  "method": "FoldNet",
+  "dataset": "shapenet",
+  "data_dir": "${DATA_ROOT}/shapenet/shapenet_part/shapenetcore_partanno_segmentation_benchmark_v0",
+  "num_points": 2048,
+  "num_workers": 4,
+  "m": 2025,
+  "epoch": 400,
+  "batch_size": 16,
+  "lr": 0.001,
+  "verbose": false,
+  "snapshot_interval": 100
+}
