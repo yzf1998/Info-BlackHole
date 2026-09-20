@@ -1,6 +1,6 @@
-# Information Blackhole: Exploring the Backdoor Mechanism in 3D Point Cloud Reconstruction
+# Information Blackhole: Exploring Backdoor Mechanism in 3D Point Cloud Reconstruction
 
-Official implementation of the paper *"Information Blackhole: Exploring the Backdoor Mechanism in 3D Point Cloud Reconstruction"* by Zhifei Yang, Xiuping Liu, Junkai Qiu, and Yuhao Bian.
+Official implementation of the paper *"Information Blackhole: Exploring Backdoor Mechanism in 3D Point Cloud Reconstruction"* by Zhifei Yang, Xiuping Liu, Junkai Qiu, and Yuhao Bian.
 
 ## 1. Requirements
 
